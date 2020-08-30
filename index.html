@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+  <meta charset="utf-8">
+  <title>Medicina Online</title>
+  <link rel="icon" href="" />
+
+  <!-- aos -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+
+  <!-- nav Bar -->
+
+  <section id="navBar">
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark">
+
+      <a class="navbar-brand navBar textoNav logo" href="">Medicina Online</a>
+      <a href="" class="imagenNavBar"><i class="fas fa-stethoscope"></i></a>
+
+
+
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+        <ul class="navbar-nav ml-auto">
+
+
+
+          <li class="nav-item navBarTexto px-3to">
+            <a class="nav-link textoNav px-5" href="#contacto2"><i class="far fa-envelope"></i>   Contacto</a>
+          </li>
+          <li class="nav-item navBarTexto px-3to">
+            <a class="nav-link textoNav px-5" href="#fotos"><i class="far fa-image"></i></a>
+          </li>
+
+          <li>
+            <form class="form-inline my-2 my-lg-0">
+              <button class="btn btn-primary boton-barra my-2 my-sm-0" type="">Inicia Sesión</button>
+            </form>
+          </li>
+
+          <li>
+            <form class="form-inline my-2 my-lg-0">
+              <button class="btn btn-outline-primar boton-barra my-2 my-sm-0" type="">Regístrate</button>
+            </form>
+          </li>
+
+
+        </ul>
+
+      </div>
+    </nav> -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Medicina Online</a>
+      <a href="" class="imagenNavBar"><i class="fas fa-stethoscope"></i></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Nosotros</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Aprende
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Anatomía</a>
+              <a class="dropdown-item" href="#">Farmacología</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Fisiología</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <button class="btn btn-outline-success boton-barra my-2 my-sm-0" type="">Inicia Sesión</button>
+        </form>
+        <form class="form-inline my-2 boton-barra my-lg-0">
+          <button class="btn btn-primary my-2 my-sm-0" type="">Regístrate</button>
+        </form>
+      </div>
+    </nav>
+  </section>
+
+
+  <!-- Seccion coloreada / video -->
+
+  <section id="principal">
+    <!-- <img class=title-image src="images/fotoPortada.jpg" alt=""> -->
+
+    <div class="title row">
+
+      <div class="col-lg-6">
+        <h1 class="titulo-principal" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="3000"> Construyendo el futuro de la medicina.</h1>
+        <h2 class="titulo-secundario" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="3000">Ofrecemos los mejores recursos de aprendizaje para ayudarte a estudiar.</h2>
+
+      </div>
+
+      <video class="video" autoplay loop width="100%">
+        <source src="images/video1.mov" type="video/mp4">
+        Sorry, your browser does not support embbeded video.
+      </video>
+
+
+
+    </div>
+
+  </section>
+
+  <!-- Seccion de features -->
+
+  <section class="white-section" id="features">
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3 class="feature-title">Fácil de utilizar.</h3>
+          <p>Con el contenido más actualizado.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-bullseye fa-4x"></i>
+          <h3 class="feature-title">La información que necesitas. Ni más, ni menos.</h3>
+          <p>Creemos en que un mejor aprendizaje requiere la información adecuada.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-heart fa-4x"></i>
+          <h3 class="feature-title">Funcionamiento garantizado.</h3>
+          <p>El conocimiento, en un solo lugar.</p>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+
+  <section class="colored-section" id="materias">
+
+    <!-- <div class="materias row">
+      <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-duration="1700">
+        <div class="">
+          <ul>
+            <li><h2 class="titulo-secundario">Nuestro contenido</h2></li>
+
+            <li class="lista-materias">
+              Anatomía
+            </li>
+            <li class="lista-materias">
+              Farmacología
+            </li>
+            <li class="lista-materias">
+              Fisiología
+            </li>
+            <li class="lista-materias">
+              Cardiología
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6" data-aos="fade-down" data-aos-duration="800" data-aos-easing="linear">
+        <div class="">
+          <img class="foto-materias" src="images/fotoPortada.jpg" alt="foto-jeringa">
+        </div>
+      </div>
+    </div> -->
+
+    <!-- <div class="card text-center">
+      <div class="card-header">
+        <ul class="nav nav-tabs card-header-tabs">
+          <li class="nav-item">
+
+            <a class="nav-link active" >Farmacología</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" >Fisiología</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" tabindex="-1" aria-disabled="true">Cardiología (próximamente)</a>
+          </li>
+        </ul>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div> -->
+
+    <h2 class="titulo-materias">Nuestro contenido</h2>
+    <p class="subtitulo-materias">Contenido creado especialmente para satisfacer las necesidades de un estudiante de medicina.</p>
+
+    <div class="row">
+      <div class="col-precios col-lg-4 col-md-6">
+        <div class="card" data-aos="fade-in" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
+          <div class="card-header">
+            <h3 class="titulo-tarjeta">Anatomía</h3>
+          </div>
+          <div class="card-body">
+            <!-- <h2>$99 pesos por mes</h2> -->
+            <ul>
+              <li>
+                <p>Anatomía del cuello.</p>
+              </li>
+              <li>
+                <p>Anatomía de la mano.</p>
+              </li>
+              <li>
+                <p>Anatomía del pie.</p>
+              </li>
+              <li>
+                <p>Anatomía del brazo.</p>
+              </li>
+              <li>
+                ...
+              </li>
+            </ul>
+            <button class="btn btn-lg btn-block btn-info" type="button">Ver el temario completo</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-precios col-lg-4 col-md-6">
+        <div class="card" data-aos="fade-in" data-aos-easing="ease-out-cubic" data-aos-duration="2500">
+          <div class="card-header">
+            <h3 class="titulo-tarjeta">Fisiología</h3>
+          </div>
+          <div class="card-body">
+            <!-- <h2>$299 / mes</h2> -->
+            <ul>
+              <li>
+                <p>Fisiología I.</p>
+              </li>
+              <li>
+                <p>Fisiología II.</p>
+              </li>
+              <li>
+                <p>Fisiología III.</p>
+              </li>
+              <li>
+                <p>Fisiología IV.</p>
+              </li>
+              <li>
+                ...
+              </li>
+            </ul>
+            <button class="btn btn-lg btn-block btn-info" type="button">Ver el temario completo</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-precios col-lg-4">
+        <div class="card" data-aos="fade-in" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+          <div class="card-header">
+            <h3 class="titulo-tarjeta">Farmacología</h3>
+          </div>
+          <div class="card-body">
+            <ul>
+              <li>
+                <p>Antibióticos.</p>
+              </li>
+              <li>
+                <p>Benzodiacepinas.</p>
+              </li>
+              <li>
+                <p>Farmacos para la diabetes.</p>
+              </li>
+              <li>
+                ...
+              </li>
+            </ul>
+            <button class="btn btn-lg btn-block btn-info" type="button">Ver el temario completo</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </section>
+
+  <!-- Seccion de testimonio -->
+
+  <section class="colored-section testimonios" id="testimonials">
+
+
+    <div id="carrusel" class="carousel slide carousel-fade" data-ride="carousel" data-keyboard="true" data-pause="hover">
+      <div class="carousel-inner">
+        <h1 class="testimonio">Testimonios</h1>
+        <div class="carousel-item active" data-interval="6000">
+          <h2 class="testimonial-text">"El mejor contenido para estudiantes de medicina que necesiten ayuda rápido"</h2>
+          <img src="images/testimonio1.jpg" class="testimonial-image" alt="testimonio-1">
+          <em class="testimonial-text-2">Pirulino, Estudiante de segundo año.</em>
+        </div>
+        <div class="carousel-item" data-interval="6000">
+          <h2 class="testimonial-text">"He utilizado los videos y pdf´s para estudiar para mis exámenes el último semestre. ¡Excelente!"</h2>
+          <img src="images/testimonio2.jpg" alt="testimonio-2" class="testimonial-image">
+          <em class="testimonial-text-2">Pirulina, Estudiante de primer año. </em>
+        </div>
+        <div class="carousel-item" data-interval="6000">
+          <h2 class="testimonial-text">¿Qué esperas para unirte?</h2>
+          <img src="images/testimonio3.jpg" alt="testimonio-3" class="testimonial-image ">
+
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carrusel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previo</span>
+      </a>
+      <a class="carousel-control-next" href="#carrusel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Siguiente</span>
+      </a>
+    </div>
+  </section>
+
+
+
+  <!-- pricing -->
+
+  <section class="white-section" id="pricing">
+    <h2 class="">Un plan especial para cada estudiante.</h2>
+    <p>Planes simples y asequibles que se ajustan a las necesidades de un estudiante de medicina.</p>
+
+    <div class="row">
+      <div class="col-precios col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Intern</h3>
+          </div>
+          <div class="card-body">
+            <h2>$99 pesos por mes</h2>
+            <p>Acceso a los contenidos de únicamente la materia escogida.</p>
+            <button class="btn btn-lg btn-block btn-outline-primary" type="button">Regístrate</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-precios col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Resident</h3>
+          </div>
+          <div class="card-body">
+            <h2>$299 / mes</h2>
+            <p>Acceso a los contenidos de todas las materias.</p>
+            <p>Uso ilimitado de la página web.</p>
+            <button class="btn btn-lg btn-block btn-primary" type="button">Regístrate</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-precios col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Doctor</h3>
+          </div>
+          <div class="card-body">
+            <h2>$499 / mes</h2>
+            <p>Acceso a los contenidos de todas las materias.</p>
+            <p>Uso ilimitado de la página web.</p>
+            <p>Asesorías de un doctor para cualquier duda relacionada a las materias vía correo electrónico.</p>
+            <button class="btn btn-lg btn-block btn-primary" type="button">Regístrate</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Call to Action -->
+
+  <section class="colored-section" id="cta">
+
+    <div class="container-fluid div-cta">
+
+      <h3 class="big-heading">Estudia con los mejores, ya.</h3>
+      <button class="download-button btn btn-lg btn-light" type="button">Suscríbete</button>
+      <!-- <button class="download-button btn btn-lg brn-light" type="button"><i class="fab fa-google-play"></i> Download</button> -->
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid redes">
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p>© Copyright 2020 Medicina Online</p>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+  <!-- script de aos -->
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <!-- SCRIPT DE JAVASCRIPT!!!!!! -->
+  <script type="text/javascript" src="index.js"> </script>
+
+</body>
+
+</html>

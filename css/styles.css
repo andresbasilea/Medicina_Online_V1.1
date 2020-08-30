@@ -1,0 +1,302 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+
+/* navBar */
+
+#navBar{
+  position: fixed;
+  z-index: 3;
+  font-size: 1.37em;
+  width: 100%;
+}
+/*
+.textoNav{
+  text-shadow: 2px 2px 2px black;
+} */
+
+.imagenNavBar{
+  visibility: hidden;
+}
+
+.icono{
+  color: white;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  margin: 0 18px;
+}
+
+.boton-barra{
+  margin: 0 18px;
+}
+
+/* .nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+} */
+
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* .container{
+  padding: 20% 50%;
+} */
+
+/* Sections */
+
+.colored-section {
+  background-color: #00bcd4;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#principal {
+  color: #fff;
+  text-align: left;
+}
+
+#principal .container-fluid {
+  padding: 3% 15% 0;
+}
+
+
+.titulo-principal{
+  position: absolute;
+  /* padding: 2% 5% 0; */
+  font-family: 'Nanum Myeongjo', sans-serif;
+  line-height: 1.5;
+  font-size: 3em;
+  color: white;
+  text-shadow: 3px 3px black;
+  z-index: 1;
+  text-align: left;
+  margin: 20% 7% 0;
+}
+
+.titulo-secundario{
+  position: absolute;
+
+  font-family: 'Nanum Myeongjo', sans-serif;
+  line-height: 1.5;
+  font-size: 2em;
+  color: #d6e0f0;
+  text-shadow: 1px 1px black;
+  z-index: 1;
+  text-align: left;
+  margin: 40% 7% 0;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  /* color: #0099ff; */
+  color: #00bcd4;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+
+
+
+/*  materias         */
+
+#materias{
+  padding: 3% 4% 2%;
+  margin: 0 0 7%;
+
+}
+
+.titulo-materias{
+  color: #EDFDFF;
+  padding: 10px 20px 20px;
+}
+
+.subtitulo-materias{
+  color: #EDFDFF;
+  padding: 10px 10px 10px;
+}
+
+.titulo-tarjeta{
+  color: black;
+}
+
+.card{
+  margin: 0 0 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Testimonial Section */
+
+
+
+#testimonials {
+  margin: 2% 10% 4%;
+  background-color: #f4f4f4;
+  border: solid 5px #dbe3e5;
+
+}
+
+.testimonios {
+
+}
+
+.testimonio{
+  padding: 20px;
+  color: black;
+}
+
+.testimonial-text {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #0f4c75;
+}
+
+.testimonial-text-2 {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: black;
+}
+
+.testimonial-image {
+  width: 30%;
+  border-radius: 2%;
+  margin: 20px;
+}
+
+.testimonial-image:hover{
+  color: grey;
+  opacity: 90%;
+}
+
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+#cta{
+  background-color: #00bcd4;
+  padding: 4% 15%;
+}
+
+
+/* Footer Section */
+
+#footer{
+  max-height: 100px;
+}
+
+.redes{
+  padding: 50px;
+}
+
+.social-icon {
+  margin: 20px 20px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 100%;
+  }
+}
